@@ -38,10 +38,10 @@ install_requires = [
     "similaritymeasures",
     "opencv-python",
     "scipy==1.8.0",
-    "ortools==9.2.9972",
+    "ortools>=9.2.9972, <9.4",
     "iso3166",
     "chardet",
-    "shapely==2.0.0",
+    "shapely<2.0",
 ]
 
 setup(
